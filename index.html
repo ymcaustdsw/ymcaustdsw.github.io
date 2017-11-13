@@ -16,6 +16,11 @@
     <link href="assets/onepage2/css/layout.css" rel="stylesheet" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <script src="https://use.fontawesome.com/fab046a1b3.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 </head>
 
 <body class="page-header-fixed">
@@ -54,6 +59,9 @@
                             <a href="#culmyca">Culmyca</a>
                         </li>
                         <li class="page-scroll">
+                           <a href = "#foundation">Foundation</a>
+                        </li>
+                        <li class="page-scroll">
                             <a href="#team">Designatories</a>
                         </li>
                         <li class="page-scroll">
@@ -65,65 +73,82 @@
         </nav>
     </header>
 
+
     <!-- BEGIN INTRO SECTION -->
-    <section id="intro">
-        <div id="carousel-example-generic" class="carousel slide" data-interval="3000">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
+    <!-- BEGIN INTRO SECTION -->
+       <section id="intro">
+           <div id="carousel-example-generic" class="carousel slide" data-interval="3000">
+               <!-- Indicators -->
+               <ol class="carousel-indicators">
+                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+               </ol>
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <!-- First slide -->
-                <div class="item carousel-item active">
-                    <img src="assets/onepage2/img/bg/cover1.jpg" class="img-one">
-                    <div class="container">
-                        <a href="#clients" class="page-scroll">
-                            <h3 class="carousel-position-one animate-delay carousel-title-v2">
-                            <img src="assets/onepage2/img/logo.png"><br>
-                            DEAN STUDENTS' WELFARE<br><span class="headSpan" ">YMCA University of Science and Technology</span>
-                        </h3>
-                        </a>
-                    </div>
-                </div>
+               <!-- Wrapper for slides -->
+
+               <div class="carousel-inner" role="listbox">
+            <!-- First slide -->
+            <div class="item carousel-item active">
+                <img src="assets/onepage2/img/bg/cover1.jpg" class="img-one">
+                <div class="container">
+                    <a href="#clients" class="page-scroll">
+                        <h3 class="carousel-position-one animate-delay carousel-title-v2">
+                        <img src="assets/onepage2/img/logo.png"><br>
+                        DEAN STUDENTS' WELFARE<br><span class="headSpan">YMCA University of Science and Technology</span>
+                        <div class="highlight">
+                  <h2 class="news">Manan Won in Hackathon</h2>
+                  <h2 class="news">Ananya Won in IOCL</h2>
+                  <h3 class="news">MechNext won in IIT Roorkee</h3>
+                  <h3 class="news">Srijan Won in IIT Delhi</h3>
+                  </div>
 
 
-                <!-- Second slide -->
-                <div class="item carousel-item">
-                    <img src="assets/onepage2/img/bg/cover2.jpg" class="img-one">
-                    <div class="container">
-                        <a href="#clients" class="page-scroll">
-                            <h3 class="carousel-position-one animate-delay carousel-title-v2">
-                            <img src="assets/onepage2/img/logo.png"><br>
-                            DEAN STUDENTS' WELFARE<br><span style="font-size: 32px;">YMCA University of Science and Technology</span>
-                        </h3>
-                        </a>
-                        <p class="carousel-subtitle-v1">YMCA University of Science and Technology</p>
-                    </div>
-                </div>
+                    </h3>
+                    </a>
 
-                <!-- Third slide -->
-                <div class="item carousel-item">
-                    <img src="assets/onepage2/img/bg/cover1.jpg" class="img-one">
-                    <div class="container">
-                        <a href="#clients" class="page-scroll">
-                            <h3 class="carousel-position-one animate-delay carousel-title-v2">
-                            <img src="assets/onepage2/img/logo.png"><br>
-                            DEAN STUDENTS' WELFARE<br><span style="font-size: 32px;">YMCA University of Science and Technology</span>
-                        </h3>
-                        </a>
-                        <p class="carousel-subtitle-v1">YMCA University of Science and Technology</p>
-                    </div>
+
+
+
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- END INTRO SECTION -->
 
-    <!-- BEGIN MAIN LAYOUT -->
+
+
+                   <!-- Second slide -->
+                   <div class="item carousel-item">
+                       <img src="assets/onepage2/img/bg/cover2.jpg" class="img-one">
+                       <div class="container">
+                           <a href="#clients" class="page-scroll">
+                               <h3 class="carousel-position-one animate-delay carousel-title-v2">
+                               <img src="assets/onepage2/img/logo.png"><br>
+                               DEAN STUDENTS' WELFARE<br><span style="font-size: 32px;">YMCA University of Science and Technology</span>
+                           </h3>
+                           </a>
+                           <p class="carousel-subtitle-v1">YMCA University of Science and Technology</p>
+                       </div>
+                   </div>
+                   <!-- Third slide -->
+                   <div class="item carousel-item">
+                       <img src="assets/onepage2/img/bg/cover1.jpg" class="img-one">
+                       <div class="container">
+                           <a href="#clients" class="page-scroll">
+                               <h3 class="carousel-position-one animate-delay carousel-title-v2">
+                               <img src="assets/onepage2/img/logo.png"><br>
+                               DEAN STUDENTS' WELFARE<br><span style="font-size: 32px;">YMCA University of Science and Technology</span>
+                           </h3>
+                           </a>
+                           <p class="carousel-subtitle-v1">YMCA University of Science and Technology</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!-- END INTRO SECTION -->
+
+ <!-- BEGIN MAIN LAYOUT -->
+
+
     <div class="page-content">
         <!-- BEGIN CLIENTS SECTION -->
         <section id="clients">
@@ -183,6 +208,7 @@
 				</div>
 
                 </div>
+
 
                 <!-- BEGIN Gallery SECTION -->
                 <section id="gallery">
@@ -1554,14 +1580,129 @@
                     <p>The Annual Cultural and Technical fest of the University</p>
                 </div>
                 <!-- //end heading -->
+
+                <div id="myCarousel" class="carousel" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17799968_1118663881594261_7817391953895329134_n.jpg?oh=ea1c8f80f8ee461e4822c50986f20a15&oe=5A641F55" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17796133_1118637964930186_6220120742540497781_n.jpg?oh=ce7bd8aa9f229d74ebf577e80d5f01e9&oe=5A9C81E9" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src=" https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17796716_1118641061596543_5287926242551247947_n.jpg?oh=98b01b4b5a047257184f6aed1180c20d&oe=5AA414A0" style="width:100%;">
+    </div>
+    <div class="item">
+      <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17795848_1118672018260114_7458756093474200968_n.jpg?oh=f9a9c11c5fa094859e7f013498f0ee1a&oe=5A9DD82B" style="width:100%;">
+    </div>
+
+    <div class="item">
+      <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17796873_1118642501596399_3995806619197943563_n.jpg?oh=f10fac54c5b5b18844382ea240786bdc&oe=5AA4022E " style="width:100%;">
+    </div>
+    <div class="item">
+      <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/17796593_1118652224928760_4139184531980533334_n.jpg?oh=b8d117e2b98ee496117c9779fa441c31&oe=5AA8FB96" style="width:100%;">
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     </section>
     <!-- END CULMYCA SECTION -->
-    
+<!-- BEGIN FOUNDATION SECTION -->
+<section id="foundation" style="padding-bottom:30px;">
+  <div class="features-bg">
+        <div class="container">
+            <div class="heading">
+                <h2><strong>Foundation Day</strong></h2>
+
+            </div>
+            <!-- //end heading -->
+
+            <div id="myCarousel" class="carousel" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="item active">
+
+            <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/22089408_1288568977937083_3410281730996378172_n.jpg?oh=149f1994db99023ac7565920a9a20710&oe=5A9A0CA9" style="width:100%;">
+            </div>
+
+            <div class="item">
+            <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/22089877_1289596974500950_5697910369330898759_n.jpg?oh=f2babd2d43af096cb9ada4e4ca6d58db&oe=5AA3066E" style="width:100%;">
+            </div>
+
+            <div class="item">
+            <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/22008412_1288509934609654_2417661070524961450_n.jpg?oh=03504c17bb2e67bb7db891f08e741263&oe=5AA2303A" style="width:100%;">
+            </div>
+            <div class="item">
+            <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/22049905_1287719414688706_2892536545421815565_n.jpg?oh=0a7bce8619bbfd642f2035ec19c3b981&oe=5AAD7E25" style="width:100%;">
+            </div>
+
+            <div class="item">
+            <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/22281827_1294197364040911_5281744920164517472_n.jpg?oh=c817f6cf7a045b95687429e3e98a7e43&oe=5A9C5E87" style="width:100%;">
+            </div>
+            <div class="item">
+            <img src="https://scontent.fdel1-1.fna.fbcdn.net/v/t1.0-9/22008074_1287718558022125_3489485161331791133_n.jpg?oh=2936b0fa8dafd047fc5735ead6064ba4&oe=5AA1134B" style="width:100%;">
+
+            </div>
+          </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </div>
+</div>
+</section>
+
+<!-- END FOUNDATION SECTION -->
+
+
     <!-- BEGIN TEAM SECTION -->
     <section id="team">
         <!-- Team BEGIN -->
         <div class="team-bg parallax">
-            <div class="container">
+            
                 <div class="heading-light">
                     <h2>The <strong>Designatories</strong></h2>
                 </div>
@@ -1627,7 +1768,6 @@
                 </div>
                 <!-- //end row -->
             </div>
-        </div>
         <!-- Team END -->
     </section>
     <!-- END TEAM SECTION -->
@@ -1661,7 +1801,7 @@
             </div>
         </div>
         <!-- End Footer -->
-
+</section>  
         <!-- Footer Coypright -->
         <div class="footer-copyright">
             <P>Designed by <a href="http://www.manantechnosurge.com/">Manan</a>
@@ -1670,7 +1810,6 @@
         <!-- End Footer Coypright -->
     </section>
     <!-- END CONTACT SECTION -->
-    </div>
     <!-- END MAIN LAYOUT -->
     <a href="#intro" class="go2top"><i class="fa fa-arrow-up"></i></a>
 
@@ -1678,7 +1817,7 @@
     <!-- BEGIN CORE PLUGINS -->
     <!--[if lt IE 9]>
 <script src="assets/plugins/respond.min.js"></script>
-<script src="assets/plugins/excanvas.min.js"></script> 
+<script src="assets/plugins/excanvas.min.js"></script>
 <![endif]-->
     <script src="assets/plugins/jquery.min.js" type="text/javascript"></script>
     <script src="assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
@@ -1739,6 +1878,24 @@
             dots[slideIndex - 1].className += " active";
             captionText.innerHTML = dots[slideIndex - 1].alt;
         }
+    </script>
+    <script>
+    (function() {
+
+    var news = $(".news");
+    var newsIndex = -1;
+
+    function showNextNews() {
+        ++newsIndex;
+        news.eq(newsIndex % news.length)
+            .fadeIn(800)
+
+            .fadeOut(800, showNextNews);
+    }
+
+    showNextNews();
+
+})();
     </script>
     <!-- END JAVASCRIPTS -->
 </body>

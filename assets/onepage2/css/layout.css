@@ -1,9 +1,25 @@
+.news {
+  display: none;
+  background-color:rgba(255,255,255,0.68);
+  text-align:center;
+  color:rgb(66, 134, 244);
+
+}
+.highlight {
+  width:80%;
+  margin:auto;
+
+}
+
+
+
+
 /* Carousel Title */
 
 .carousel .carousel-title-v1,
 .carousel .carousel-title-v2,
 .carousel .carousel-title-v3 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.7;
 }
@@ -37,7 +53,7 @@
 .page-header {
     padding: 0;
     margin: 0;
-    border-bottom: none;
+    border-bottom: 0px solid #eee;
     /* Navbar */
     /* Navbar Toggle */
     /* Navbar Brand */
@@ -104,7 +120,7 @@
 
 @media (max-width: 991px) {
     /* 991px */
-    
+
     .page-header .navbar-header {
         float: none;
     }
@@ -130,7 +146,7 @@
 
 @media (max-width: 991px) {
     /* 991px */
-    
+
     body {
         padding-top: 80px;
     }
@@ -165,7 +181,7 @@
 
 @media (min-width: 992px) {
     /* 992px */
-    
+
     .page-header {
         top: 0;
         left: 0;
@@ -190,7 +206,7 @@
 
 @media (min-width: 992px) {
     /* 992px */
-    
+
     .page-on-scroll .page-header {
         /* Navbar Brand */
         /* Navbar Nav */
@@ -1630,7 +1646,7 @@ a:focus {
     height: 100%;
     -webkit-filter: blur(3px);
     /* Safari 6.0 - 9.0 */
-    
+
     filter: blur(3px);
 }
 .carousel .carousel-title-v1 {
@@ -1663,7 +1679,7 @@ a:focus {
     height: auto;
 }
 .headSpan {
-    font-size: 32px;
+    font-size: 28spx;
 }
 .carousel .carousel-position-two {
     top: 45%;
@@ -1682,7 +1698,7 @@ a:focus {
 
 @media (max-width: 768px) {
     /* 768px */
-    
+
     .carousel .carousel-title-v1 {
         font-size: 40px;
     }
