@@ -3,7 +3,7 @@
   background-color:rgba(255,255,255,0.68);
   text-align:center;
   color:rgb(66, 134, 244);
-
+  font-size: 22px;
 }
 .highlight {
   width:80%;
@@ -19,7 +19,7 @@
 .carousel .carousel-title-v1,
 .carousel .carousel-title-v2,
 .carousel .carousel-title-v3 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.7;
 }
@@ -1679,7 +1679,7 @@ a:focus {
     height: auto;
 }
 .headSpan {
-    font-size: 28spx;
+    font-size: 28px;
 }
 .carousel .carousel-position-two {
     top: 45%;
