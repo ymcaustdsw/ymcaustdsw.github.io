@@ -265,7 +265,7 @@
                                 </div>
                             </div>
 
-                            <div id="myModal" class="modal">
+                            <div id="myModal" class="modal" style="z-index: 10000000;">
                                 <span class="close cursor" onclick="closeModal()">&times;</span>
                                 <div class="modal-content">
 
@@ -425,7 +425,7 @@
                                     <div class="margin-t-10 sm-margin-t-0">
                                         <p>Manan, the computers technical society of YMCA University was formed in 2009 with an aim to promote informatics and cybernetics. It is renowned for conducting workshops and managing all computer related chores including website and application work. This club consists of tech-geeks with expertise in various spheres of information technology like security, web development and much more.</p>
                                         <p>Faculty Coordinator - Mr Harish Kumar<br>
-                                        	<span style="text-decoration: underline;"><a href="assets/reports/manandata.pdf" target="_blank">Summary of Events</a></span></p>
+                                        <span style="text-decoration: none;"><a href="assets/reports/manandata.pdf" target="_blank">Summary of Events</a></span></p>
                                     </div>
                                 </div>
                             </div>
@@ -1328,7 +1328,7 @@
                                 </div>
                                 <div class="team-desc">
                                     <div class="team-details">
-                                        <h4>Nishant Sharma</h4>
+                                        <h4>Anmol Prashar</h4>
                                     </div>
                                 </div>
                             </div>
@@ -1805,7 +1805,7 @@
     </section>
     <!-- END CONTACT SECTION -->
     <!-- END MAIN LAYOUT -->
-    <a href="#intro" class="go2top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#intro" id="toTopbtn"class="go2top"><i class="fa fa-arrow-up"></i></a>
 
     <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
     <!-- BEGIN CORE PLUGINS -->
@@ -1834,10 +1834,12 @@
 
         function openModal() {
             document.getElementById('myModal').style.display = "block";
+            document.getElementById('toTop').style.display = "none";	
         }
 
         function closeModal() {
             document.getElementById('myModal').style.display = "none";
+            document.getElementById('toTop').style.display = "block";	
         }
 
         var slideIndex = 1;

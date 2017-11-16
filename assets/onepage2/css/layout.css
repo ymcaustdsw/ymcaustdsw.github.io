@@ -11,8 +11,9 @@
 
 }
 
-
-
+.w3-modal {
+        z-index: 100000000;
+    }
 
 /* Carousel Title */
 
@@ -1719,7 +1720,7 @@ a:focus {
         visibility: visible;
     }
     .w3-modal {
-        z-index: 10000000;
+        z-index: 100000000;
     }
 }
 .logo {
